@@ -278,6 +278,18 @@ img{
   }
 }
 @media(min-width: 700px) {
+.hide-sm{
+    display: none;
+  }
+  .showcase-top img{
+    top:30%;
+    left:5%;
+    transform: translate(0);
+  }
+  .showcase-content h1{
+    font-size: 3.7rem;
+    line-height: 1;
+  }
   .showcase::after{
     box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000;
   }
@@ -292,4 +304,8 @@ img{
 #tab-2-content .tab2-content-bottom{
   grid-template-columns: 1fr;
 }
+.footer .footer-cols{
+    grid-template-columns: repeat(2, 1fr);
+
+  }
 }
