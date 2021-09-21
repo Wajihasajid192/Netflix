@@ -308,4 +308,17 @@ img{
     grid-template-columns: repeat(2, 1fr);
 
   }
-}
+
+} .btn-xl{
+    font-size: 1.5rem;
+    padding: 1.4rem 2rem;
+  }
+  .text-xl{
+    font-size: 1.5rem;
+  }
+  .text-lg{
+    font-size: 1.3rem;
+  }
+  .text-md{
+    font-size: 1rem;
+  }
