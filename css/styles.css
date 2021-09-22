@@ -249,20 +249,21 @@ img{
   .hide-sm {
 		display: none;
 	}
+  .showcase-content h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+
+  .showcase-content p {
+    font-size: 1rem;
+  }
   .showcase-top img {
 		top: 30%;
 		left: 5%;
 		transform: translate(0);
 	}
 
-	.showcase-content h1 {
-		font-size: 3.7rem;
-		line-height: 1;
-	}
 
-	.showcase-content p {
-		font-size: 1.5rem;
-	}
 
 	.footer .footer-cols {
 		grid-template-columns: repeat(2, 1fr);
@@ -296,15 +297,15 @@ img{
     background: rgba(0, 0, 0, 0.6);
     box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000;
   }
-
   .showcase-content h1 {
-    font-size: 2.5rem;
+    font-size: 3.7rem;
     line-height: 1;
   }
 
   .showcase-content p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
+
 
   #tab-1-content .tab1-content-inner {
     grid-template-columns: 1fr;
