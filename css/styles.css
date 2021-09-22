@@ -332,7 +332,7 @@ img {
 	margin-left: 1rem;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 770px) {
 
 		.showcase {
 		height: 70vh;
@@ -382,7 +382,7 @@ img {
 	}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
 	.showcase::after {
 		background: rgba(0, 0, 0, 0.6);
 		box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000;
@@ -422,7 +422,7 @@ img {
 	}
 }
 
-@media(max-height: 600px) {
+@media(max-height: 400px) {
   .showcase-content {
 	margin-top: 3rem;
 }
